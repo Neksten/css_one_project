@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2 ?family=Roboto&display=swap');
+
+/* цвета */
+.bg-red { 
+    background: #f74c55;
+}
+
+
+
+/* тело */
+body {
+    background-color: #f74c55;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+/* ссылки */
+a {
+    font-size: 24px;
+    color: white;
+    /* подчёркивание */
+    text-decoration: none; 
+    margin: 0;
+    font-style: light;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: #e2e2e2;
+} */
+
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.info a {
+    margin-left: 30px;
+}
+.info {
+    padding-left: 650px;
+}
+
+
+/* круги лево */
+.ellips-model1 div {
+    border-radius: 100%;
+}
+.ellips-model1 h1 {
+    font-family: Brush Script MT;
+    src: url(D:\Программированиe\1pdf\brushscriptmtrusbyme_italic);
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 125px;
+    top: -30px;
+}
+
+.el1 {
+    background: #ee732f;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    /* margin-left: 55px;
+    margin-top:  -115px; */
+    left: 55px;
+    top: -115px;
+}
+
+.el2 {
+    background: #f74c55;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 30px;
+    top: -110px;
+}
+
+.el3 {
+    background: #2d5f3b;
+    height: 325px;
+    width: 325px;
+    position: absolute;
+    left: -5px;
+    top: -120px;
+}
+
+.el4 {
+    background: #82a3ad;
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    left: -30px;
+    top: -120px;
+}
+.el5 {
+    background: #f74c55;
+    height: 440px;
+    width: 440px;
+    position: absolute;
+    left: -60px;
+    top: -115px;
+}
+.el6 {
+    background: #404040;
+    height: 560px;
+    width: 560px;
+    position: absolute;
+    left: -100px;
+    top: -110px;
+}
+.el7 {
+    background: #fb636b;
+    height: 670px;
+    width: 670px;
+    position: absolute;
+    left: -160px;
+    top: -130px;
+}
+
+
+.el8 {
+    background: #ee732f;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    /* margin-left: 55px;
+    margin-top:  -115px; */
+    right: -140px;
+    top: 220px;
+}
+
+.el9 {
+    background: #f74c55;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: -130px;
+    top: 200px;
+}
+
+.el10 {
+    background: #2d5f3b;
+    height: 370px;
+    width: 370px;
+    position: absolute;
+    right: -170px;
+    top: 170px;
+}
+
+.el11 {
+    background: #404040;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    right: -210px;
+    top: 150px;
+}
+.el12 {
+    background: #fb636b;
+    height: 560px;
+    width: 560px;
+    position: absolute;
+    right: -230px;
+    top: 130px;
+}
+
+/* текст первый уровень */
+.cont2t1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.cont2t2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+.social{
+    background: white;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 600px;
+    top: 270px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.social:hover {
+    background: #f74c55;
+}
+
+.social p {
+    color: #f74c55;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.social:hover p{
+    color: white;
+}
+
+
+
+/* блок 2 */
+.white-block {
+    background: white;
+    height: 400px;
+    width: 1345px;
+    position: absolute;
+    left: -2px;
+    top: 385px;
+}
+
+.whttxt1 { 
+    color: #404040;
+    font-size: 30px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.whttxt2 { 
+    color: #404040;
+    font-size: 15px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.cub1 {
+    background: #ee732f;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.cub2 {
+    background: #f74c55;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.cub3 {
+    background: #2d5f3b;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.cub4 {
+    background: #404040;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.cub5 {
+    background: #fb636b;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+/* центр 3 блока */
+.box-model > div{
+    float: left;
+}
+
+
+.zona1 {
+    background: #404040;
+    position:absolute;
+    height: 300px;
+    width: 470px;
+    margin-left: -8px;
+    margin-top: 748px;
+}
+.zona2 {
+    background: #f74c55;
+    position:absolute;
+    height: 300px;
+    width: 450px;
+    margin-left: 440px;
+    margin-top: 748px;
+}
+.zona3 {
+    background: #2d5f3b;
+    position:absolute;
+    height: 300px;
+    width: 455px;
+    margin-left: 880px;
+    margin-top: 748px;
+}
+
+.z1p1{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.z1p2{
+    color: white;
+    font-size: 17px;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+.z2p1{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.z2p2{
+    color: white;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.z3p1{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.z3p2{
+    color: white;
+    font-size: 17px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* картинки */
+.img1 img {
+    position: relative;
+    width: 1350px;
+    margin-left: -15px;
+    margin-top: 1048px;
+}
+
+.im1p1 {
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    margin-top: -500px;
+    margin-left: 300px;
+}
+.im1p2 {
+    color: white;
+    position: relative;
+    font-size: 60px;
+    margin-top: -500px;
+    margin-left: 500px;
+}
+
+.z1img1 {
+    position: relative;
+    margin-left: 110px;
+    margin-top: -200px;
+}
+
+.z2img1 {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -200px;
+}
+
+.z3img1 {
+    position: relative;
+    margin-left: 60px;
+    margin-top: -200px;
+}
+
+
+.z1plus {
+    position: relative;
+    margin-left: 385px;
+    margin-top: 170px;
+}
+.z1plus:hover{
+    opacity: 90%;
+}
+
+.z2plus {
+    position: relative;
+    margin-left: 345px;
+    margin-top: 170px;
+}
+.z2plus:hover{
+    opacity: 90%;
+}
+
+.z3plus {
+    position: relative;
+    margin-left: 335px;
+    margin-top: 170px;
+}
+.z3plus:hover{
+    opacity: 90%;
+}
+
+.social2{
+    background: white;
+    height: 60px;
+    width: 220px;
+    position: relative;
+    left: 570px;
+    top: 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.social2:hover {
+    border: 2px solid white;
+    /* opacity: 10%; */
+    background: none;
+}
+
+.social2 p {
+    font-size: 30px;
+    margin-left: 38px;
+    margin-top: 11px;
+}
+
+.social2:hover p{
+    color: white;
+}
+
+
+
+.imgcolor {
+    position: relative;
+    margin-top: -5px;
+    margin-left: -34px;
+}
+/* второй белый блок */
+.wb2 {
+    background: white;
+    height: 120px;
+    width: 1346px;
+    position: absolute;
+    margin-left: -11px;
+    margin-top: 160px;
+}
+.wb2 p{
+    color: black;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 45px;
+}
